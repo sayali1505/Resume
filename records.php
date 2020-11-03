@@ -12,6 +12,14 @@
 </head>
 <body>
 <form action="resume_search.php" method="post">
+Select Field:
+<select name="resume">
+<option>-----Select-----</option>
+<option value="skill_name">Skill</option>
+<option value="education">Qualification</option>	
+<option value="city">Job Location</option>
+<option value="experience">Experience</option>
+</select><br>
 	<input type="text" name="search">
 	<input type="submit" name="" value="Search">
 </form>
